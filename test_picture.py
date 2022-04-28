@@ -1,3 +1,5 @@
-N = input("N층 입력: ")
+#for i in range(1,6):
+#    if i % 2 == 1:
+#        a.append(i)
 
-print(2**int(N))
+a = [num for num in range(1,6) if num % 2 ==1]
